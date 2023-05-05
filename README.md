@@ -21,7 +21,7 @@ git clone https://github.com/oobabooga/text-generation-webui.git
 ```
 Enter the webui’s folder by running
 ```
-cd text-generation-webuiCopied!
+cd text-generation-webui
 ```
 ### Create and activate a virtual environment
 Make sure you are using Python 3.10.
@@ -59,5 +59,7 @@ python server.py --chat --threads 4
 ```
 ### Using the webui
 Go to the URL http://127.0.0.1:7860 in your browser to start the webui.
+
 Navigate to the Model page. Select the 7B model.
+
 Chat with Vicuna on the text generation page.
